@@ -16,9 +16,9 @@
 title: Portfolio
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Welcome to my official ePortfolio site. The site holds the entirety of my work spanning Computer Science, Cybersecurity, 
+  specializations in both fields, and best practices in management. From here, the reader may view certain blog posts on my interests, 
+  as well as be redirected to other sites for evaluating the projects I have completed in my undergraduate/graduate studies.
 #twitter_username: username
 github_username: ClaraKellermannBryant
 minimal_mistakes_skin: dark
@@ -64,7 +64,7 @@ author:
   links:
     - label: "Graduate Portfolio Work"
       icon: "fas fa-fw fa-link"
-      url: "https://"
+      url: "https://clarakellermannbryant.github.io/Graduate-ePortfolio/"
     - label: "Undergraduate ePortfolio"
       icon: "fab fa-fw fa-link"
       url: "https://galarianrapidash2345.github.io/ePortfolio/"
@@ -79,7 +79,7 @@ footer:
   links:
     - label: "Graduate Portfolio Work"
       icon: "fab fa-fw fa-link"
-      url: "https://"
+      url: "https://clarakellermannbryant.github.io/Graduate-ePortfolio/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ClaraKellermannBryant"
