@@ -60,7 +60,9 @@ plugins:
 author:
   name   : "Clara Kellermann-Bryant"
   avatar : "/assets/images/Finished Clara.jpg"
-  bio    : "Welcome to my official ePortfolio website. You will find subject matter ranging in Cybersecurity here."
+  bio    : "Welcome to my official ePortfolio site. The site holds the entirety of my work spanning Computer Science, Cybersecurity, 
+  specializations in both fields, and best practices in management. From here, the reader may view certain blog posts on my interests, 
+  as well as be redirected to other sites for evaluating the projects I have completed in my undergraduate/graduate studies."
   links:
     - label: "Graduate Portfolio Work"
       icon: "fas fa-fw fa-link"
