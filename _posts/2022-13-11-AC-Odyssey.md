@@ -8,9 +8,9 @@ tags:
   - update
 ---
 
-"/assets/images/IMG_20220615_144653847.jpg"
 
-Introduction
+
+**Introduction**
 
 This study conducted for Assassin's Creed Odyssey regards graphics in a security context where the emphasis is placed on how complex objects, indices, and texture mapping can be protected from external threats. Such threats continue to exploit graphics, create damage to reputation and monetary assets, as well as violating the proprietorship of copyrighted materials in the video game industry. The study is thus intended for cybersecurity personnel, software engineers, designers, and those who are beginning their journey in the video game industry to follow best practices in graphics. 
 
@@ -22,7 +22,9 @@ I hope that these findings from AC Odyssey assist in the adoption of security fo
 
 Let's begin the analysis to view rendering in AC Odyssey.
 
-Complex Objects
+
+
+**Complex Objects**
 
 AC Odyssey utilizes the AnvilNext 2.0 engine which supports the rendering of the object mesh. The mesh is the foundation of each smaller object that includes what could be thought of as a blueprint for developing the structures humans recognize. For example, when viewing a column in the game, users are able to identify the object as such. Passing the camera through the column, we can see that the column is made up of several planes which in turn are plotted in the world. The concern is where users can view the deconstruction of a complex object and create an advantage point to developing similar columns for competitive reasons. :
 
@@ -34,7 +36,9 @@ In another case with complex object deconstruction, users can view how branches 
 It is suggested that watermarking complex objects are a more effective approach to deterring the misuse of models or assets. Ramasamy and Arumugam (2022) found that various techniques for watermarking consist of a spatial domain embedding process, an embedding process for image transformation, LSB embedding, and additive watermarking. Developers can then apply these watermarking models for assets accordingly. 
 
 
-Indices
+
+
+**Indices**
 
 Indices refer to the plotting of vertices using the index buffer to develop the surface of an object without memory storage issues. The increase in memory storage and use may exacerbate overflow attacks when complex objects are plotted solely with vertices, and the index buffer assists in preventing such threats. 
 
@@ -49,7 +53,9 @@ Moreover, I found a plane oriented out of the rocks in the same area. :
 The wall and the plane from the rocks leave vulnerabilities as misusers can manipulate design flaws such as these. It is recommended that the wall should be attached to the surrounding objects with indices and the plane from the rocks is to be either positioned appropriately or removed to follow suitable procedures.
 
 
-Collisions
+
+
+**Collisions**
 
 Collision overlap inhibits objects in motion to pass through other objects. For example, a sphere may strike a plane and become intertwined with the plane's mesh during an animation. In the case of AC Odyssey, the avatar's vehicle of transportation (a horse), displays issues in collision detection where bounds are not defined. 
 
@@ -63,7 +69,9 @@ The following image continues to analyze the right hoof of the horse entangled w
 Collision resolution and detection answer such complications with meshes by establishing bounds through initializing position, input validation, and updating the rendering.  LearnOpenGL - Collision detection (n.d.) suggests implementing the bool CheckCollision() function to ensure overlap in meshes such as those for the horse and the tree bounce back to form the collision. 
 
 
-Textures
+
+
+**Textures**
 
 Texture mapping is the basis of what makes a complex object realistic or creative compared to rendering solid colors. As textures are proprietary intangibles that are owned by the persons who developed the texture, copyright laws are associated with obtaining textures. 
 The images presented are taken from the first-person camera that can be extracted out of the game in violation of copyright. 
@@ -85,13 +93,18 @@ The recommended procedures for protecting textures are to ensure that cameras ca
 
 
 
-Conclusion
+
+
+**Conclusion**
 
 The findings have exemplified areas of concern for developers and design teams alike. As the copyright infringement of graphics intangibles is at an all-time high, the best practices discussed for each area are proposed to combat exploitation. It is therefore pertinent to enforce best practices and study AC Odyssey further in determining the outlook precursor incidents regarding graphics.
 
 
 
-                                            References:
+                                      
+**References**        
+                                               
+                                                                                  
 Koller, D., & Levoy, M. (2005, June). Protecting 3D Graphics Content—Corrected CACM article. Retrieved November 13, 2022, from https://graphics.stanford.edu/papers/protecting/article-html/
 
 LearnOpenGL - Collision detection. (n.d.). Retrieved November 13, 2022, from https://learnopengl.com/In-Practice/2D-Game/Collisions/Collision-detection
