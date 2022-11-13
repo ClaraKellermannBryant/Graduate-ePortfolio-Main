@@ -51,10 +51,10 @@ Indices refer to the plotting of vertices using the index buffer to develop the 
 Here, one case is presently showing how indices could save memory while ensuring adjacent objects are rendered together for mitigating gaps or other design appearances.
 
 While conducting the study on indices, I discovered a wall that is supposedly attached to rocks, though contains a gap between the top part of the wall and the base of the structure. :
-
-
+![Rock1](https://github.com/ClaraKellermannBryant/Graduate-ePortfolio-Main/blob/master/assets/images/IMG_20220615_140314265.jpg)
+![Rock2](https://github.com/ClaraKellermannBryant/Graduate-ePortfolio-Main/blob/master/assets/images/IMG_20220615_140544625.jpg)
 Moreover, I found a plane oriented out of the rocks in the same area. :
-
+![RockPlane](https://github.com/ClaraKellermannBryant/Graduate-ePortfolio-Main/blob/master/assets/images/IMG_20220615_140419785.jpg)
 
 The wall and the plane from the rocks leave vulnerabilities as misusers can manipulate design flaws such as these. It is recommended that the wall should be attached to the surrounding objects with indices and the plane from the rocks is to be either positioned appropriately or removed to follow suitable procedures.
 
