@@ -8,7 +8,7 @@ tags:
   - update
 ---
 
-![Fish](https://github.com/ClaraKellermannBryant/Graduate-ePortfolio-Main/blob/master/assets/images/IMG_20220615_144653847.jpg)
+![Fish](https://github.com/ClaraKellermannBryant/Graduate-ePortfolio-Main/blob/master/assets/images/IMG_20220615_144653847.jpg?raw=true)
 
 **Introduction**
 
