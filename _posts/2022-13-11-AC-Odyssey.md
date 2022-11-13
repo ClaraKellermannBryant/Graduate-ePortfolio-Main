@@ -93,6 +93,8 @@ The findings have exemplified areas of concern for developers and design teams a
 
                                             References:
 Koller, D., & Levoy, M. (2005, June). Protecting 3D Graphics Content—Corrected CACM article. Retrieved November 13, 2022, from https://graphics.stanford.edu/papers/protecting/article-html/
-	LearnOpenGL - Collision detection. (n.d.). Retrieved November 13, 2022, from https://learnopengl.com/In-Practice/2D-Game/Collisions/Collision-detection
-	Ramasamy, R., & Arumugam, V. (2022). Digital watermarking—A tutorial. IEEE Potentials, 41(4), 43–48. https://doi.org/10.1109/MPOT.2015.2435802
+
+LearnOpenGL - Collision detection. (n.d.). Retrieved November 13, 2022, from https://learnopengl.com/In-Practice/2D-Game/Collisions/Collision-detection
+
+Ramasamy, R., & Arumugam, V. (2022). Digital watermarking—A tutorial. IEEE Potentials, 41(4), 43–48. https://doi.org/10.1109/MPOT.2015.2435802
 
