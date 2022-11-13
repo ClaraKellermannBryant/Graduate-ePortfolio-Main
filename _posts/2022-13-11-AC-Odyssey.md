@@ -30,6 +30,7 @@ Let's begin the analysis to view rendering in AC Odyssey.
 
 AC Odyssey utilizes the AnvilNext 2.0 engine which supports the rendering of the object mesh. The mesh is the foundation of each smaller object that includes what could be thought of as a blueprint for developing the structures humans recognize. For example, when viewing a column in the game, users are able to identify the object as such. Passing the camera through the column, we can see that the column is made up of several planes which in turn are plotted in the world. The concern is where users can view the deconstruction of a complex object and create an advantage point to developing similar columns for competitive reasons. :
 
+![Column](https://github.com/ClaraKellermannBryant/Graduate-ePortfolio-Main/blob/master/assets/images/IMG_20220615_132319460.jpg)
 
 In another case with complex object deconstruction, users can view how branches in the plants are created from the first-person camera. They can also evaluate the position of the branch and determine the planes that fashion the bottom of the branch. The branch as a separate entity shown is therefore a concern about the intellectual property theft of models in the game when a  malicious user bypasses the GPU (Koller & Levoy, 2005). :
 
