@@ -30,12 +30,12 @@ Let's begin the analysis to view rendering in AC Odyssey.
 
 AC Odyssey utilizes the AnvilNext 2.0 engine which supports the rendering of the object mesh. The mesh is the foundation of each smaller object that includes what could be thought of as a blueprint for developing the structures humans recognize. For example, when viewing a column in the game, users are able to identify the object as such. Passing the camera through the column, we can see that the column is made up of several planes which in turn are plotted in the world. The concern is where users can view the deconstruction of a complex object and create an advantage point to developing similar columns for competitive reasons. :
 
-![Column](https://github.com/ClaraKellermannBryant/Graduate-ePortfolio-Main/blob/master/assets/images/IMG_20220615_132319460.jpg)
+![Column](https://github.com/ClaraKellermannBryant/Graduate-ePortfolio-Main/blob/master/assets/images/IMG_20220615_132319460.jpg?raw=true)
 
 In another case with complex object deconstruction, users can view how branches in the plants are created from the first-person camera. They can also evaluate the position of the branch and determine the planes that fashion the bottom of the branch. The branch as a separate entity shown is therefore a concern about the intellectual property theft of models in the game when a  malicious user bypasses the GPU (Koller & Levoy, 2005). :
 
-![Branch1](https://github.com/ClaraKellermannBryant/Graduate-ePortfolio-Main/blob/master/assets/images/IMG_20220615_152828260.jpg)
-![Branch2](https://github.com/ClaraKellermannBryant/Graduate-ePortfolio-Main/blob/master/assets/images/IMG_20220615_153426429.jpg)
+![Branch1](https://github.com/ClaraKellermannBryant/Graduate-ePortfolio-Main/blob/master/assets/images/IMG_20220615_152828260.jpg?raw=true)
+![Branch2](https://github.com/ClaraKellermannBryant/Graduate-ePortfolio-Main/blob/master/assets/images/IMG_20220615_153426429.jpg?raw=true)
 
 It is suggested that watermarking complex objects are a more effective approach to deterring the misuse of models or assets. Ramasamy and Arumugam (2022) found that various techniques for watermarking consist of a spatial domain embedding process, an embedding process for image transformation, LSB embedding, and additive watermarking. Developers can then apply these watermarking models for assets accordingly. 
 
@@ -51,11 +51,11 @@ Indices refer to the plotting of vertices using the index buffer to develop the 
 Here, one case is presently showing how indices could save memory while ensuring adjacent objects are rendered together for mitigating gaps or other design appearances.
 
 While conducting the study on indices, I discovered a wall that is supposedly attached to rocks, though contains a gap between the top part of the wall and the base of the structure. :
-![Rock1](https://github.com/ClaraKellermannBryant/Graduate-ePortfolio-Main/blob/master/assets/images/IMG_20220615_140314265.jpg)
-![Rock2](https://github.com/ClaraKellermannBryant/Graduate-ePortfolio-Main/blob/master/assets/images/IMG_20220615_140544625.jpg)
+![Rock1](https://github.com/ClaraKellermannBryant/Graduate-ePortfolio-Main/blob/master/assets/images/IMG_20220615_140314265.jpg?raw=true)
+![Rock2](https://github.com/ClaraKellermannBryant/Graduate-ePortfolio-Main/blob/master/assets/images/IMG_20220615_140544625.jpg?raw=true)
 Moreover, I found a plane oriented out of the rocks in the same area. :
 
-![RockPlane](https://github.com/ClaraKellermannBryant/Graduate-ePortfolio-Main/blob/master/assets/images/IMG_20220615_140419785.jpg)
+![RockPlane](https://github.com/ClaraKellermannBryant/Graduate-ePortfolio-Main/blob/master/assets/images/IMG_20220615_140419785.jpg?raw=true)
 
 The wall and the plane from the rocks leave vulnerabilities as misusers can manipulate design flaws such as these. It is recommended that the wall should be attached to the surrounding objects with indices and the plane from the rocks is to be either positioned appropriately or removed to follow suitable procedures.
 
@@ -70,12 +70,12 @@ Collision overlap inhibits objects in motion to pass through other objects. For 
 
 As shown here, the left hoof of the horse is within a tree and the right hoof is partially visible due to the undefined positioning of collision detection. :
 
-![Hoof1](https://github.com/ClaraKellermannBryant/Graduate-ePortfolio-Main/blob/master/assets/images/IMG_20220615_131639158.jpg)
-![Hoof2](https://github.com/ClaraKellermannBryant/Graduate-ePortfolio-Main/blob/master/assets/images/IMG_20220615_131538786.jpg)
+![Hoof1](https://github.com/ClaraKellermannBryant/Graduate-ePortfolio-Main/blob/master/assets/images/IMG_20220615_131639158.jpg?raw=true)
+![Hoof2](https://github.com/ClaraKellermannBryant/Graduate-ePortfolio-Main/blob/master/assets/images/IMG_20220615_131538786.jpg?raw=true)
 
 The following image continues to analyze the right hoof of the horse entangled with the mesh of the tree. :
 
-![RightHoof](https://github.com/ClaraKellermannBryant/Graduate-ePortfolio-Main/blob/master/assets/images/IMG_20220615_131802443.jpg)
+![RightHoof](https://github.com/ClaraKellermannBryant/Graduate-ePortfolio-Main/blob/master/assets/images/IMG_20220615_131802443.jpg?raw=true)
 
 
 Collision resolution and detection answer such complications with meshes by establishing bounds through initializing position, input validation, and updating the rendering.  LearnOpenGL - Collision detection (n.d.) suggests implementing the bool CheckCollision() function to ensure overlap in meshes such as those for the horse and the tree bounce back to form the collision. 
@@ -92,19 +92,19 @@ The images presented are taken from the first-person camera that can be extracte
 
 The first image is a painting texture mapped on a wall for decorative purposes. Again, the first-person camera was able to zoom in on the wall, capturing the painting's texture. The image is cropped to protect the texture from misusers in this demonstration. :
 
-![Painting](https://github.com/ClaraKellermannBryant/Graduate-ePortfolio-Main/blob/master/assets/images/IMG_20220615_132616150.jpg)
+![Painting](https://github.com/ClaraKellermannBryant/Graduate-ePortfolio-Main/blob/master/assets/images/IMG_20220615_132616150.jpg?raw=true)
 
 The second image is of the ground zoomed in past the grass objects to reveal one of the textures applied on floor surfaces. As shown, several grass objects appear in the image, however, the texture is significantly visible. :
 
-![Ground](https://github.com/ClaraKellermannBryant/Graduate-ePortfolio-Main/blob/master/assets/images/IMG_20220615_145549225.jpg)
+![Ground](https://github.com/ClaraKellermannBryant/Graduate-ePortfolio-Main/blob/master/assets/images/IMG_20220615_145549225.jpg?raw=true)
 
 The third image illustrates how the first-person camera ignores collision detection and is able to find additional textures that are hidden in the third-person camera. Using the planter example as before, a stone texture is placed beneath. A misuser could then zoom into the planter and orient the camera for obtaining the stone texture. :
 
-![RockTexture](https://github.com/ClaraKellermannBryant/Graduate-ePortfolio-Main/blob/master/assets/images/IMG_20220615_150210594.jpg)
+![RockTexture](https://github.com/ClaraKellermannBryant/Graduate-ePortfolio-Main/blob/master/assets/images/IMG_20220615_150210594.jpg?raw=true)
 
 The fourth image exhibits unease; when the avatar burns a certain material such as hay in the game, a fire animation occurs. The first-person camera can zoom into the burning material and reveals the gif texture mapped. :
 
-![Fire](https://github.com/ClaraKellermannBryant/Graduate-ePortfolio-Main/blob/master/assets/images/IMG_20220615_151259895.jpg)
+![Fire](https://github.com/ClaraKellermannBryant/Graduate-ePortfolio-Main/blob/master/assets/images/IMG_20220615_151259895.jpg?raw=true)
 
 
 The recommended procedures for protecting textures are to ensure that cameras cannot overlap with objects for accessing textures, deploy the watermark strategies mentioned previously, and encrypt texture data. Additionally, enforce collision measures to prohibit the camera from zooming into textures - placing objects to serve as boundaries and input validation suffice for these circumstances.
