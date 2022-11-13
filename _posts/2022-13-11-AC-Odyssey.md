@@ -54,6 +54,7 @@ While conducting the study on indices, I discovered a wall that is supposedly at
 ![Rock1](https://github.com/ClaraKellermannBryant/Graduate-ePortfolio-Main/blob/master/assets/images/IMG_20220615_140314265.jpg)
 ![Rock2](https://github.com/ClaraKellermannBryant/Graduate-ePortfolio-Main/blob/master/assets/images/IMG_20220615_140544625.jpg)
 Moreover, I found a plane oriented out of the rocks in the same area. :
+
 ![RockPlane](https://github.com/ClaraKellermannBryant/Graduate-ePortfolio-Main/blob/master/assets/images/IMG_20220615_140419785.jpg)
 
 The wall and the plane from the rocks leave vulnerabilities as misusers can manipulate design flaws such as these. It is recommended that the wall should be attached to the surrounding objects with indices and the plane from the rocks is to be either positioned appropriately or removed to follow suitable procedures.
@@ -69,9 +70,12 @@ Collision overlap inhibits objects in motion to pass through other objects. For 
 
 As shown here, the left hoof of the horse is within a tree and the right hoof is partially visible due to the undefined positioning of collision detection. :
 
+![Hoof1](https://github.com/ClaraKellermannBryant/Graduate-ePortfolio-Main/blob/master/assets/images/IMG_20220615_131639158.jpg)
+![Hoof2](https://github.com/ClaraKellermannBryant/Graduate-ePortfolio-Main/blob/master/assets/images/IMG_20220615_131538786.jpg)
 
 The following image continues to analyze the right hoof of the horse entangled with the mesh of the tree. :
 
+![RightHoof](https://github.com/ClaraKellermannBryant/Graduate-ePortfolio-Main/blob/master/assets/images/IMG_20220615_131802443.jpg)
 
 
 Collision resolution and detection answer such complications with meshes by establishing bounds through initializing position, input validation, and updating the rendering.  LearnOpenGL - Collision detection (n.d.) suggests implementing the bool CheckCollision() function to ensure overlap in meshes such as those for the horse and the tree bounce back to form the collision. 
