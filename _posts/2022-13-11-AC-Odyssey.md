@@ -34,7 +34,8 @@ AC Odyssey utilizes the AnvilNext 2.0 engine which supports the rendering of the
 
 In another case with complex object deconstruction, users can view how branches in the plants are created from the first-person camera. They can also evaluate the position of the branch and determine the planes that fashion the bottom of the branch. The branch as a separate entity shown is therefore a concern about the intellectual property theft of models in the game when a  malicious user bypasses the GPU (Koller & Levoy, 2005). :
 
-
+![Branch1](https://github.com/ClaraKellermannBryant/Graduate-ePortfolio-Main/blob/master/assets/images/IMG_20220615_152828260.jpg)
+![Branch2](https://github.com/ClaraKellermannBryant/Graduate-ePortfolio-Main/blob/master/assets/images/IMG_20220615_153426429.jpg)
 
 It is suggested that watermarking complex objects are a more effective approach to deterring the misuse of models or assets. Ramasamy and Arumugam (2022) found that various techniques for watermarking consist of a spatial domain embedding process, an embedding process for image transformation, LSB embedding, and additive watermarking. Developers can then apply these watermarking models for assets accordingly. 
 
