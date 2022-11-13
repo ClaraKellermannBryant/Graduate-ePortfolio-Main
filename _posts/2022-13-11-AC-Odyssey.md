@@ -24,6 +24,8 @@ Let's begin the analysis to view rendering in AC Odyssey.
 
 
 
+
+
 **Complex Objects**
 
 AC Odyssey utilizes the AnvilNext 2.0 engine which supports the rendering of the object mesh. The mesh is the foundation of each smaller object that includes what could be thought of as a blueprint for developing the structures humans recognize. For example, when viewing a column in the game, users are able to identify the object as such. Passing the camera through the column, we can see that the column is made up of several planes which in turn are plotted in the world. The concern is where users can view the deconstruction of a complex object and create an advantage point to developing similar columns for competitive reasons. :
@@ -34,6 +36,8 @@ In another case with complex object deconstruction, users can view how branches 
 
 
 It is suggested that watermarking complex objects are a more effective approach to deterring the misuse of models or assets. Ramasamy and Arumugam (2022) found that various techniques for watermarking consist of a spatial domain embedding process, an embedding process for image transformation, LSB embedding, and additive watermarking. Developers can then apply these watermarking models for assets accordingly. 
+
+
 
 
 
@@ -55,6 +59,8 @@ The wall and the plane from the rocks leave vulnerabilities as misusers can mani
 
 
 
+
+
 **Collisions**
 
 Collision overlap inhibits objects in motion to pass through other objects. For example, a sphere may strike a plane and become intertwined with the plane's mesh during an animation. In the case of AC Odyssey, the avatar's vehicle of transportation (a horse), displays issues in collision detection where bounds are not defined. 
@@ -67,6 +73,8 @@ The following image continues to analyze the right hoof of the horse entangled w
 
 
 Collision resolution and detection answer such complications with meshes by establishing bounds through initializing position, input validation, and updating the rendering.  LearnOpenGL - Collision detection (n.d.) suggests implementing the bool CheckCollision() function to ensure overlap in meshes such as those for the horse and the tree bounce back to form the collision. 
+
+
 
 
 
@@ -95,9 +103,13 @@ The recommended procedures for protecting textures are to ensure that cameras ca
 
 
 
+
+
 **Conclusion**
 
 The findings have exemplified areas of concern for developers and design teams alike. As the copyright infringement of graphics intangibles is at an all-time high, the best practices discussed for each area are proposed to combat exploitation. It is therefore pertinent to enforce best practices and study AC Odyssey further in determining the outlook precursor incidents regarding graphics.
+
+
 
 
 
