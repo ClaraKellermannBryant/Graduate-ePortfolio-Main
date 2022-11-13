@@ -92,15 +92,19 @@ The images presented are taken from the first-person camera that can be extracte
 
 The first image is a painting texture mapped on a wall for decorative purposes. Again, the first-person camera was able to zoom in on the wall, capturing the painting's texture. The image is cropped to protect the texture from misusers in this demonstration. :
 
+![Painting](https://github.com/ClaraKellermannBryant/Graduate-ePortfolio-Main/blob/master/assets/images/IMG_20220615_132616150.jpg)
 
 The second image is of the ground zoomed in past the grass objects to reveal one of the textures applied on floor surfaces. As shown, several grass objects appear in the image, however, the texture is significantly visible. :
 
+![Ground](https://github.com/ClaraKellermannBryant/Graduate-ePortfolio-Main/blob/master/assets/images/IMG_20220615_145549225.jpg)
 
 The third image illustrates how the first-person camera ignores collision detection and is able to find additional textures that are hidden in the third-person camera. Using the planter example as before, a stone texture is placed beneath. A misuser could then zoom into the planter and orient the camera for obtaining the stone texture. :
 
+![RockTexture](https://github.com/ClaraKellermannBryant/Graduate-ePortfolio-Main/blob/master/assets/images/IMG_20220615_150210594.jpg)
 
 The fourth image exhibits unease; when the avatar burns a certain material such as hay in the game, a fire animation occurs. The first-person camera can zoom into the burning material and reveals the gif texture mapped. :
 
+![Fire](https://github.com/ClaraKellermannBryant/Graduate-ePortfolio-Main/blob/master/assets/images/IMG_20220615_151259895.jpg)
 
 
 The recommended procedures for protecting textures are to ensure that cameras cannot overlap with objects for accessing textures, deploy the watermark strategies mentioned previously, and encrypt texture data. Additionally, enforce collision measures to prohibit the camera from zooming into textures - placing objects to serve as boundaries and input validation suffice for these circumstances.
