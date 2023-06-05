@@ -1,5 +1,5 @@
 ---
-title: "RSA Encryption"
+title: "Encryption"
 categories:
   - Blog
 tags:
