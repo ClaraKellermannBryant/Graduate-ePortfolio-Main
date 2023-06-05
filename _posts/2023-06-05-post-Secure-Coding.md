@@ -1,5 +1,5 @@
 ---
-title: "Post: Notice"
+title: "Secure Coding"
 categories:
   - Blog
 tags:
