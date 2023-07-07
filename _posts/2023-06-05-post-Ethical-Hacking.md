@@ -3,13 +3,9 @@ title: "Ethical Hacking"
 categories:
   - Blog
 tags:
-  - link
+  - white hat
   - Post Formats
-link: https://github.com
+link: https://clarakellermannbryant.github.io/Ethical-Hacking/
 ---
 
-This theme supports **link posts**, made famous by John Gruber. To use, just add `link: http://url-you-want-linked` to the post's YAML front matter and you're done.
-
-> And this is how a quote looks.
-
-Some [link](#) can also be shown.
+In the Ethical Hacking category, I took an approach to understanding how malware and malicious tools are created. With this approach, I was able to dissect the adversarial mindset for establishing advanced defenses against cybercriminals. The projects 
