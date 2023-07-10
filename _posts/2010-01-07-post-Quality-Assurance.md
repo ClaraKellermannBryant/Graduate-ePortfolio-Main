@@ -1,5 +1,5 @@
 ---
-title: "Post: Standard"
+title: "Post: Quality Assurance"
 excerpt_separator: "<!--more-->"
 categories:
   - Blog
