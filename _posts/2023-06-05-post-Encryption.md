@@ -8,5 +8,5 @@ tags:
 ---
 
 > .
-  
+  The Encryption category has demonstrated how certain cryptographic algorithms can be used to secure applications and networks. 
 > 
