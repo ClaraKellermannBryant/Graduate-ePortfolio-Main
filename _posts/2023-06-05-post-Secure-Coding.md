@@ -7,7 +7,7 @@ tags:
   - notice
 ---
 
-
+The Secure Coding category consists of best practices and methods to protect software. 
 
 
 
