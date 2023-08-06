@@ -9,5 +9,5 @@ tags:
   - standard
 ---
 
-
+The Quality Assurance category includes unit testing, fuzzing, white box testing, and black box testing for software. 
 
