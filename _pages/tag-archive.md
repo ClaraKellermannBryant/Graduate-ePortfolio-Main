@@ -1,6 +1,6 @@
 ---
 title: "Posts by Tag"
-permalink: /tags/
+permalink: /cybertags/
 layout: tags
 author_profile: true
 ---
