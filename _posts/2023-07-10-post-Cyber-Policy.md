@@ -7,4 +7,4 @@ tags:
   - quote
 link: https://github.com/ClaraKellermannBryant/Cyber-Policy
 ---
-The Cyber Policy category includes general documentation and best practices for organizations. An acceptable use policy, 
+The Cyber Policy category includes general documentation and best practices for organizations. An acceptable use policy, anti-drug and alcohol abuse policy,  
