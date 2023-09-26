@@ -8,4 +8,4 @@ tags:
 link: https://github.com/ClaraKellermannBryant/Encryption
 ---
 
-  The Encryption category has demonstrated how certain cryptographic algorithms can be used to secure applications and networks. RSA, Diffie-Hellman, AES, SNOW, and cipher fundamentals are included within this category. 
+  The Encryption category has demonstrated how certain cryptographic algorithms can be used to secure applications and networks. RSA, Diffie-Hellman, AES, SNOW, and cipher fundamentals are included within this category. My understanding of encryption has then improved through learning SQLite protection basics to fully mastering the ways cryptographic algorithms are developed. 
