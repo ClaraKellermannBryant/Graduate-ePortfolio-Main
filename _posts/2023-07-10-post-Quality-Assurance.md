@@ -10,5 +10,5 @@ tags:
 link: https://github.com/ClaraKellermannBryant/Quality-Assurance
 ---
 
-The Quality Assurance category includes unit testing, fuzzing, white box testing, and black box testing for software. Unit testing includes small tests for applications. Fuzzing utilizes automated testing and consists of real-time execution. White box and black box testing 
+The Quality Assurance category includes unit testing, fuzzing, white box testing, and black box testing for software. Unit testing includes small tests for applications. Fuzzing utilizes automated testing and consists of real-time execution. White box and black box testing assist not just with finding vulnerabilities from knowns or unknowns, but 
 
