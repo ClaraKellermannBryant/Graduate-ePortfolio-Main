@@ -14,4 +14,4 @@ The projects for the offensive side detail how a sophisticated attacker may deve
 
 The projects for the defensive side consist of utilizing defense-in-depth strategies, technical controls, and documentation. The defense-in-depth strategies use the layering technique with IDS/IPS capabilities. 
 
-What I attained from the ethical hacking category includes social engineering fundamentals, physical attacks, hardware hacking, 
+What I attained from the ethical hacking category includes social engineering fundamentals, physical attacks, hardware hacking, and other penetration testing techniques. 
