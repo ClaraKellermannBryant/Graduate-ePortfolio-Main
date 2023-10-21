@@ -8,7 +8,9 @@ tags:
 link: https://github.com/ClaraKellermannBryant/Graduate-Secure-Coding
 ---
 
-The Secure Coding category consists of best practices and methods to protect software. Parameterized queries, encryption, clean code best practices, and incorporating recommendations for CVE mitigation are discussed. This category is pertinent to various areas including database and application design, code injection prevention, 
+The Secure Coding category consists of best practices and methods to protect software. Parameterized queries, encryption, clean code best practices, and incorporating recommendations for CVE mitigation are discussed. This category is pertinent to various areas including database and application design, code injection prevention, overflow detection, and other concepts in software development. 
+
+
 
 
 
